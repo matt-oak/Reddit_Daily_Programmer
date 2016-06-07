@@ -26,6 +26,7 @@ if init_input == "s":
 			dif = dif[:5]
 			print "Total time:", dif, "seconds"
 			log_file.write("Total time: %s seconds" % dif)
+			log_file.close()
 			exit()
 		else:
 			print "Invalid input, please enter [l] for lap or [e] to stop"
