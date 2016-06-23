@@ -113,6 +113,7 @@ def encounter():
 			if my_health <= 0 and enemy_health <= 0:
 				print "Your health: ", 0
 				print "Enemy health: ", 0
+				enemies_killed = enemies_killed + 1
 			elif enemy_health <= 0:
 				print "Your health: ", my_health
 				print "Enemy health: ", 0
